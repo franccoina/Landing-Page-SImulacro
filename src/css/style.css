@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+h2,h3,p,button{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 40px;
+}
+
+.icons-navbar{
+    display: flex;
+    gap: 100px
+}
+
+.icons-1{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.icons-2{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.bi-facebook{
+    font-size: 10px;
+    color: white;
+    background-color:#325cce;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+.bi-instagram{
+    font-size: 10px;
+    color: white;
+    background-color:#a77762;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+.bi-twitter{
+    font-size: 10px;
+    color: white;
+    background-color: #35adbd;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+.bi-youtube{
+    font-size: 10px;
+    color: white;
+    background-color: #e25959;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+.bi-snapchat{
+    font-size: 10px;
+    color: white;
+    background-color: #ffa551;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+.bi-search,.bi-list{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+#viajes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.viajes{
+    margin: 100px;
+    width: 80%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viajes-col1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.magdalena-div{
+    position: relative;
+    background-image: url(../../public/img/magdalena.webp);
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+}
+
+.santander-div{
+    position: relative;
+    background-image: url(../../public/img/santander.webp);
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+}
+
+.viajes-col2{
+    width: 60%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.antioquia-amazonas{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+.antioquia-div{
+    position: relative;
+    background-image: url(../../public/img/antioquia.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.amazonas-div{
+    position: relative;
+    background-image: url(../../public/img/Amazonas.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.arauca-div{
+    position: relative;
+    background-image: url(../../public/img/arauca.webp);
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+}
+
+.viajes-text{
+    color: white;
+    background-color: rgb(0, 0, 0, 50%);
+    position: absolute;
+    bottom: 0
+}
+
+
+
+
+#descripciones{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.descripciones{
+    margin: 100px;
+    width: 80%;
+    height: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.descripcion{
+    padding: 30px;
+    display: flex;
+    width: 80%;
+    border-bottom: 2px solid #35bd40;
+}
+
+.descripcion-content{
+    padding: 10px;
+}
+
+.fecha-leermas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.descripcion img{
+    width: 30%;
+    height: auto;
+}
+
+
+.adds{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
